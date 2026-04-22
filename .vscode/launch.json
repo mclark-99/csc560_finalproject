@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Run UIApp",
+      "request": "launch",
+      "mainClass": "UIApp",
+      "vmArgs": "--module-path \"${workspaceFolder}\\javafx\\lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
